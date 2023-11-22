@@ -26,12 +26,32 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 
+5. Create a new branch
+```bash
+git checkout -b <branch-name>
+```
 
+6. Make changes
+- create a new markdown file. eg: test1.md
+- open test1.md and add some lines
+
+7. Stage, Commit and push
+```bash
+git add <filename>
+git commit -m "Your message here"
+git push
+```
+Note: For first time after creating a branch on your local machine, you need to set an up-stream to our Github repo.
+```bash
+git push --set-upstream origin <branch name>
+```
+
+Additional commands
 To check your configuration and see you set username and email
 ```bash
 git config -l
 ```
-To store your token and you won't be asked next time
+To store your token and you won't be asked next time to enter the credentials
 ```bash
 git config --global credential.helper cache
 ```
@@ -39,23 +59,8 @@ To unset and forget your password
 ```bash
 git config --global --unset credential.helper
 ```
-To unser the username and email
+To unset the username and email
 ```bash
 git config --global --unset-all user.name
 git config --global --unset-all user.email
-```
-
-
-
-```bash
-git checkout -b <branch-name>
-```
-
-```bash
-git add .
-git commit -m "Your commit message here"
-```
-
-```bash
-git push origin <branch-name>
 ```
