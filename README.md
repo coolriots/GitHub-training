@@ -1,6 +1,9 @@
 # GitHub-training
 This repo is soley for training and on-baording new members
 
+# Link to training video
+[![Please click this link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fvideo_4404094&psig=AOvVaw1qFjTGiTtBCMbiaoL8VlcT&ust=1700717815213000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCMjW_9vx1oIDFQAAAAAdAAAAABAE)](https://coolriots.bitrix24.com/~upNjb)
+
 1. Install Git:
 If you haven't already installed Git on your local machine, you can download and install it from the official Git website: [Git Downloads](https://git-scm.com/downloads)
 
