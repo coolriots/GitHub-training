@@ -3,6 +3,7 @@ This repo is soley for training and on-baording new members
 
 Note: This Github training is divided into 2 parts. First part is essential for all and second part is for the person in charge of pushing code to production.
 
+## Part 1: Essentials
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~upNjb)
 
 1. Install Git:
@@ -68,7 +69,7 @@ git config --global --unset-all user.email
 ```
 
 
-## GitHub-Tags 🏷️ for production
+## Part 2: GitHub-Tags 🏷️ for production
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~chaoC)
 
 ```bash
