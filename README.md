@@ -1,9 +1,9 @@
 # GitHub-training
 This repo is soley for training and on-baording new members
 
-Note: This Github training is divided into 2 parts. First part is essential for all and second part is for the person in charge of pushing code to production.
+Note📝: This Github training is divided into 2 parts. First part is essential for all and second part is for the person in charge of pushing code to production.
 
-## Part 1: Essentials
+## Part 1: Get started. (Essentials)
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~upNjb)
 
 1. Install Git:
