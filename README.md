@@ -7,8 +7,8 @@
 
 **What you can do with this repo?**
 - You may clone this repo
-- add your files for practise (Delete are you are practising)
-- but do not delete files that you have not created
+- add your files for practise (Delete are you are done practising)
+- Do not delete files that you have not created ‼️
 
   
 ## Part 1: Get started. (Essentials) 🐣
