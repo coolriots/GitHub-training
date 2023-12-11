@@ -64,3 +64,30 @@ To unset the username and email
 git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
+
+## GitHub-Tags 🏷️ for production
+[![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~upNjb)
+
+```bash
+# Step 1: Make a Code Change
+# Open your code editor and make changes
+
+# Step 2: Stage and Commit the Changes
+git add .
+git commit -m "Describe your changes here"
+
+# Step 3: Push the Code Changes to the Remote Repository
+git push origin <branch_name>
+
+# Step 4: Add a Tag 🏷️
+git tag -a v1.0 -m "Version 1.0 release"
+
+# Step 5: Push the Tag 🏷️ to the Remote Repository
+git push origin v0.0.1
+```
+Note: Always use v before the version number. 
+- v**⤵**.0.0 👈🏻 Major Version: The major version indicates significant, potentially backward-incompatible changes to the software.
+- v0.**⤵**.0 👈🏻 Minor Version: The minor version reflects smaller, backward-compatible enhancements and features added to the software. 
+- v0.0.**⤵** 👈🏻 Patch Version: The patch version is typically reserved for bug fixes or minor improvements that are backward-compatible with the existing features.
+
+
