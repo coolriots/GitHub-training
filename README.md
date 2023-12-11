@@ -6,8 +6,8 @@
 **Note📝:** *This repo is soley for training and on-baording new members.* 
 
 **What you can do with this repo?**
-- You may clone this repo,
-- add your files for practise
+- You may clone this repo
+- add your files for practise (Delete are you are practising)
 - but do not delete files that you have not created
 
   
