@@ -1,6 +1,15 @@
 # GitHub-training 👨🏻‍💻
-**Note📝:** This Github training is divided into 2 parts. First part is essential for all and second part is for the person in charge of pushing code to production.
-*This repo is soley for training and on-baording new members.* You may clone this repo, add your files and practise but do not delete files that you have not created"
+This Github training is divided into 2 parts as follows:
+- Part 1: Essential for all
+- Part 2: For the person in charge of pushing code to production.
+
+**Note📝:** *This repo is soley for training and on-baording new members.* 
+**What you can do with this repo?**
+- You may clone this repo,
+- add your files for practise
+- but do not delete files that you have not created
+
+  
 ## Part 1: Get started. (Essentials) 🐣
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~upNjb)
 
