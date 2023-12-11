@@ -98,7 +98,7 @@ git tag -a v1.0 -m "Version 1.0 release"
 # Step 5: Push the Tag 🏷️ to the Remote Repository
 git push origin v0.0.1
 ```
-**Note📝:** Always use v before the version number. **vX.X.X**
+**Note📝:** _Always use v before the version number._ **vX.X.X**
 - v**0͎**.0.0 👈🏻 **Major Version:** The major version indicates significant, potentially backward-incompatible changes to the software.
 - v0.**0͎**.0 👈🏻 **Minor Version:** The minor version reflects smaller, backward-compatible enhancements and features added to the software. 
 - v0.0.**1͎** 👈🏻 **Patch Version:** The patch version is typically reserved for bug fixes or minor improvements that are backward-compatible with the existing features.
