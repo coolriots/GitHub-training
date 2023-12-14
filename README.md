@@ -93,7 +93,7 @@ git commit -m "Describe your changes here"
 git push 
 
 # Step 4: Add a Tag 🏷️
-git tag -a v1.0 -m "Version 1.0 release"
+git tag -a v0.0.1 -m "Version 1.0 release"
 
 # Step 5: Push the Tag 🏷️ to the Remote Repository
 git push origin v0.0.1
