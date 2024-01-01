@@ -90,17 +90,15 @@ git add .
 git commit -m "Describe your changes here"
 
 # Step 3: Assign the Tag 🏷️
-bump2version *Version level here*
+bump2version **version**
 
 Example:
-    bump2version patch
+    bump2version patch 
     bump2version minor
     bump2version major
 
-
 # Step 4: Push the Code Changes to the Remote Repository along with the tags
 git push --follow-tags                                               
-
 
 ```
 **Note📝:** _Always use v before the version number._ **vX.X.X** This type of versioning is called Semantic Versioning (also known as SemVer).
