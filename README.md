@@ -89,14 +89,19 @@ git config --global --unset-all user.email
 git add .
 git commit -m "Describe your changes here"
 
-# Step 3: Push the Code Changes to the Remote Repository
-git push 
+# Step 3: Assign the Tag 🏷️
+bump2version *Version level here*
 
-# Step 4: Add a Tag 🏷️
-git tag -a v0.0.1 -m "Version 1.0 release"
+Example:
+    bump2version patch
+    bump2version minor
+    bump2version major
 
-# Step 5: Push the Tag 🏷️ to the Remote Repository
-git push origin v0.0.1
+
+# Step 4: Push the Code Changes to the Remote Repository along with the tags
+git push --follow-tags                                               
+
+
 ```
 **Note📝:** _Always use v before the version number._ **vX.X.X** This type of versioning is called Semantic Versioning (also known as SemVer).
 - v**0͎**.0.0 👈🏻 **Major Version:** The major version indicates significant, potentially backward-incompatible changes to the software.
