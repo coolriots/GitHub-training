@@ -101,9 +101,10 @@ git add .
 git commit -m "Describe your changes here"
 ```
 **Step 3:** Assign the Tag 🏷️
-```bash
+
 bump2version **version**
-```
+
+
 **Example:**
 ```bash
 bump2version patch
