@@ -105,9 +105,10 @@ git commit -m "Describe your changes here"
 bump2version **version**
 ```
 Example:
-    ```bump2version patch ```
-    bump2version minor
-    bump2version major
+    ```bash
+    bump2version patch```
+    ```bash bump2version minor```
+    ```bump2version major```
 
 # Step 4: Push the Code Changes to the Remote Repository along with the tags
 ```bash
