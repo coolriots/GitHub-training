@@ -91,7 +91,6 @@ pip install -r requirements.txt
 ---------------------------
 
 **Step 1:** Make a Code Change
-Open your code editor and make changes
 
 **Step 2:** Stage and Commit the Changes
 ```zsh
