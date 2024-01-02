@@ -81,25 +81,35 @@ git config --global --unset-all user.email
 ## Part 2: GitHub-Tags 🏷️ for production
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](Add new vid. Last one outdated.)
 
+
+### For 1st time you need to install bump2version
 ```bash
-# Step 1: Make a Code Change
-# Open your code editor and make changes
+pip install bump2version
+or
+pip install -r requirements.txt
+```
+---------------------------
+
+**Step 1:** Make a Code Change
+- Open your code editor and make changes
 
 # Step 2: Stage and Commit the Changes
+```bash
 git add .
 git commit -m "Describe your changes here"
-
+```
 # Step 3: Assign the Tag 🏷️
+```bash
 bump2version **version**
-
+```
 Example:
-    bump2version patch 
+    ```bump2version patch ```
     bump2version minor
     bump2version major
 
 # Step 4: Push the Code Changes to the Remote Repository along with the tags
+```bash
 git push --follow-tags                                               
-
 ```
 **Note📝:** _Always use v before the version number._ **vX.X.X** This type of versioning is called Semantic Versioning (also known as SemVer).
 - v**0͎**.0.0 👈🏻 **Major Version:** The major version indicates significant, potentially backward-incompatible changes to the software.
