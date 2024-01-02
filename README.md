@@ -106,9 +106,14 @@ bump2version **version**
 ```
 Example:
     ```bash
-    bump2version patch```
-    ```bash bump2version minor```
-    ```bump2version major```
+    bump2version patch
+    ```
+    ```bash
+    bump2version minor
+    ```
+    ```bash
+    bump2version major
+    ```
 
 # Step 4: Push the Code Changes to the Remote Repository along with the tags
 ```bash
