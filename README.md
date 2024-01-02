@@ -112,10 +112,10 @@ To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.
 ### For new project you need these following configuration
 ```
 # Step 1: Create a .bumpversion.cfg file and appInfo.py file
-# Step 2: Populate the file .bumpversion.cfg with these data below 👇🏻
 ```
 ---------------------------
 ```
+# Step 2: Populate the file .bumpversion.cfg with these data below 👇🏻
 [bumpversion]
 current_version = 0.0.1
 commit = False
@@ -126,15 +126,15 @@ TAG_MESSAGE = "Release {new_version}: Changelog: {changelog}"
 [bumpversion:file:app/appInfo.py]   <- location to your appInfo.py file
 ```
 ---------------------------
-```
-# Step 3: Populate appInfo.py with information about your app as shown below 👇🏻
-```
 ```Python
+# Step 3: Populate appInfo.py with information about your app as shown below 👇🏻
+
 # File: app/appInfo.py 
 app_name = "Your App name"
 __version__ = "v0.0.1" # Initial version then leave as it is. 
 description = "Describe your app
 ```
+---------------------------
 
 
 
