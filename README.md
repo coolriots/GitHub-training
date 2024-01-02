@@ -79,7 +79,7 @@ git config --global --unset-all user.email
 
 
 ## Part 2: GitHub-Tags 🏷️ for production
-[![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~chaoC)
+[![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](Add new vid. Last one outdated.)
 
 ```bash
 # Step 1: Make a Code Change
@@ -107,6 +107,34 @@ git push --follow-tags
 - v0.0.**1͎** 👈🏻 **Patch Version:** The patch version is typically reserved for bug fixes or minor improvements that are backward-compatible with the existing features.
 
 To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.org/introduction-semantic-versioning/).
+
+
+### For new project you need these following configuration
+```
+# Step 1: Create a .bumpversion.cfg file and appInfo.py file
+# Step 2: Populate the file .bumpversion.cfg with these data below 👇🏻
+```
+---------------------------
+```
+[bumpversion]
+current_version = 0.0.1
+commit = False
+tag = True
+TAG_NAME = {new_version}
+TAG_MESSAGE = "Release {new_version}: Changelog: {changelog}"
+
+[bumpversion:file:app/appInfo.py]   <- location to your appInfo.py file
+```
+---------------------------
+```
+# Step 3: Populate appInfo.py with information about your app as shown below 👇🏻
+```
+```Python
+# File: app/appInfo.py 
+app_name = "Your App name"
+__version__ = "v0.0.1" # Initial version then leave as it is. 
+description = "Describe your app
+```
 
 
 
