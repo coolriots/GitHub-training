@@ -115,11 +115,6 @@ bump2version minor
 ```bash
 bump2version major
 ```
-
-# Step 4: Push the Code Changes to the Remote Repository along with the tags
-```bash
-git push --follow-tags                                               
-```
 **Note📝:** _Always use v before the version number._ **vX.X.X** This type of versioning is called Semantic Versioning (also known as SemVer).
 - v**0͎**.0.0 👈🏻 **Major Version:** The major version indicates significant, potentially backward-incompatible changes to the software.
 - v0.**0͎**.0 👈🏻 **Minor Version:** The minor version reflects smaller, backward-compatible enhancements and features added to the software. 
@@ -127,14 +122,17 @@ git push --follow-tags
 
 To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.org/introduction-semantic-versioning/).
 
+**Step 4:** Push the Code Changes to the Remote Repository along with the tags
+```bash
+git push --follow-tags                                               
+```
 
-### For new project you need these following configuration
+## For new project you need these following configuration
+
+**Step 1:** Create a **.bumpversion.cfg** file and **appInfo.py** file
+
+**Step 2:** Populate the file **.bumpversion.cfg** with these data below 👇🏻
 ```
-# Step 1: Create a .bumpversion.cfg file and appInfo.py file
-```
----------------------------
-```
-# Step 2: Populate the file .bumpversion.cfg with these data below 👇🏻
 [bumpversion]
 current_version = 0.0.1
 commit = False
