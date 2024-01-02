@@ -12,7 +12,7 @@
 - Do not delete files that you have not created ‼️
 
   
-## Part 1: Get started. (Essentials) 🐣
+# Part 1: Get started. (Essentials) 🐣
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](https://coolriots.bitrix24.com/~upNjb)
 
 1. Install Git:
@@ -78,14 +78,16 @@ git config --global --unset-all user.email
 ```
 
 
-## Part 2: GitHub-Tags 🏷️ for production
+# Part 2: GitHub-Tags 🏷️ for production
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](Add new vid. Last one outdated.)
 
 
-### For 1st time you need to install bump2version
+## For 1st time you need to install bump2version
 ```bash
 pip install bump2version
+```
 or
+```bash
 pip install -r requirements.txt
 ```
 ---------------------------
@@ -93,12 +95,12 @@ pip install -r requirements.txt
 **Step 1:** Make a Code Change
 - Open your code editor and make changes
 
-# Step 2: Stage and Commit the Changes
+**Step 2:** Stage and Commit the Changes
 ```bash
 git add .
 git commit -m "Describe your changes here"
 ```
-# Step 3: Assign the Tag 🏷️
+**Step 3:** Assign the Tag 🏷️
 ```bash
 bump2version **version**
 ```
