@@ -93,18 +93,14 @@ pip install -r requirements.txt
 ---------------------------
 
 **Step 1:** Make a Code Change
-- Open your code editor and make changes
+Open your code editor and make changes
 
 **Step 2:** Stage and Commit the Changes
 ```bash
 git add .
 git commit -m "Describe your changes here"
 ```
-**Step 3:** Assign the Tag 🏷️
-
-bump2version **version**
-
-
+**Step 3:** Assign the Tag 🏷️ bump2version **version**
 **Example:**
 ```bash
 bump2version patch
