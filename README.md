@@ -82,7 +82,7 @@ git config --global --unset-all user.email
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](Add new vid. Last one outdated.)
 
 
-## For 1st time you need to install bump2version
+## PIP Package required 👇🏻
 ```zsh
 pip install bump2version
 ```
