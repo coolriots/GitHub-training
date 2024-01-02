@@ -120,7 +120,7 @@ To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.
 ```zsh
 git push --follow-tags                                               
 ```
-
+--------
 ## For new project you need these following configuration
 
 **Step 1:** Create a **.bumpversion.cfg** file and **appInfo.py** file
