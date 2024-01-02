@@ -33,13 +33,13 @@ Replace "Your GitHub Username" and "your.email@example.com" with your actual Git
 - Next when you clone a repo, system will prompt to key-in your username then user password. The password is the token which you have to key-in.
 
 4. Clone the respective repository
-```bash
+```zsh
 git clone <repository-url>
 cd <repository-directory>
 ```
 
 5. Create a new branch
-```bash
+```zsh
 git checkout -b <branch-name>
 ```
 
@@ -48,31 +48,31 @@ git checkout -b <branch-name>
 - open test1.md and add some lines
 
 7. Stage, Commit and push
-```bash
+```zsh
 git add <filename>
 git commit -m "Your message here"
 git push
 ```
 Note: For first time after creating a branch on your local machine, you need to set an up-stream to our Github repo.
-```bash
+```zsh
 git push --set-upstream origin <branch name>
 ```
 
 Additional commands
 To check your configuration and see you set username and email
-```bash
+```zsh
 git config -l
 ```
 To store your token and you won't be asked next time to enter the credentials
-```bash
+```zsh
 git config --global credential.helper cache
 ```
 To unset and forget your password
-```bash
+```zsh
 git config --global --unset credential.helper
 ```
 To unset the username and email
-```bash
+```zsh
 git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
@@ -83,11 +83,11 @@ git config --global --unset-all user.email
 
 
 ## For 1st time you need to install bump2version
-```bash
+```zsh
 pip install bump2version
 ```
 or
-```bash
+```zsh
 pip install -r requirements.txt
 ```
 ---------------------------
@@ -96,19 +96,19 @@ pip install -r requirements.txt
 Open your code editor and make changes
 
 **Step 2:** Stage and Commit the Changes
-```bash
+```zsh
 git add .
 git commit -m "Describe your changes here"
 ```
 **Step 3:** Assign the Tag 🏷️ bump2version **version**
 **Example:**
-```bash
+```zsh
 bump2version patch
 ```
-```bash
+```zsh
 bump2version minor
 ```
-```bash
+```zsh
 bump2version major
 ```
 - v0.0.**1͎** 👈🏻 **Patch Version:** The patch version is typically reserved for bug fixes or minor improvements that are backward-compatible with the existing features.
@@ -119,7 +119,7 @@ bump2version major
 To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.org/introduction-semantic-versioning/).
 
 **Step 4:** Push the Code Changes to the Remote Repository along with the tags
-```bash
+```zsh
 git push --follow-tags                                               
 ```
 
@@ -139,7 +139,7 @@ TAG_MESSAGE = "Release {new_version}: Changelog: {changelog}"
 [bumpversion:file:app/appInfo.py]  # <- location to your appInfo.py file. Example: app/appInfo.py or appInfo.py
 ```
 **Step 3:** Populate **appInfo.py** with information about your app as shown below 👇🏻
-```Python
+```python
 # File: app/appInfo.py 
 app_name = "Your App name"
 __version__ = "v0.0.1" # Initial version then leave as it is. 
@@ -147,7 +147,7 @@ description = "Describe your app here"
 tags_metadata = "tags metadata here"
 ```
 **Step 4:** Import **appInfo.py** to your **main.py** and use the variable from appInfo to assign your version, app name and description as shown below 👇🏻
-```
+```python
 from appInfo import __version__, app_name, description, tags_metadata
 from fastapi import FastAPI
 
