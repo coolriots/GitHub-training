@@ -132,9 +132,25 @@ TAG_MESSAGE = "Release {new_version}: Changelog: {changelog}"
 # File: app/appInfo.py 
 app_name = "Your App name"
 __version__ = "v0.0.1" # Initial version then leave as it is. 
-description = "Describe your app
+description = "Describe your app here"
+tags_metadata = "tags metadata here"
 ```
 ---------------------------
+```
+# Step 4: Import appInfo.py to your main.py and use the variable from appInfo to asisgn your version, app name and description as shown below 👇🏻
+
+from appInfo import __version__, app_name, description, tags_metadata
+from fastapi import FastAPI
+
+app = FastAPI(
+    title=app_name,
+    description=description,
+    version=f" 🏭 Prod:{__version__} ",
+    openapi_tags=tags_metadata
+)
+
+
+```
 
 
 
