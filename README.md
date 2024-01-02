@@ -82,7 +82,7 @@ git config --global --unset-all user.email
 [![Please click this link](https://cdn-icons-png.flaticon.com/512/4404/4404094.png)](Add new vid. Last one outdated.)
 
 
-For first time user, please download [bump2version]([https://github.com/c4urself/bump2version](https://pypi.org/project/bump2version/)) package as shown below 👇🏻
+For first time user, please download [bump2version](https://pypi.org/project/bump2version/) package as shown below 👇🏻
 ```zsh
 pip install bump2version
 ```
