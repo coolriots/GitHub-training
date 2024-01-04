@@ -151,8 +151,12 @@ app = FastAPI(
     version=f" 🏭 Prod:{__version__} ",
     openapi_tags=tags_metadata
 )
+```
 
-
+**PS. Fun Tips: ** You can yout versionkaboom, bismillah, bumptydumpty instead of bump2v **version**
+Example: 
+```zsh
+versionkaboom patch
 ```
 
 
