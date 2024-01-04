@@ -153,11 +153,18 @@ app = FastAPI(
 )
 ```
 
-**PS. Fun Tips: ** You can yout versionkaboom, bismillah, bumptydumpty instead of bump2v **version**
+**PS. 👾Fun Tips:👾** You can yout versionkaboom, bismillah, bumptydumpty instead of bump2v **version**
 Example: 
 ```zsh
 versionkaboom patch
 ```
+```zsh
+bismillah patch
+```
+```zsh
+bumptydumpty patch
+```
+
 
 
 
