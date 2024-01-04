@@ -80,9 +80,9 @@ git config --global --unset-all user.email
 
 # Part 2: GitHub-Tags 🏷️ for production
 
-For first time user, please download [bump2version](https://pypi.org/project/bump2version/) package as shown below 👇🏻
+For first time user, please download [bump2v](https://pypi.org/project/bump2v/) package as shown below 👇🏻
 ```zsh
-pip install bump2version
+pip install bump2v
 ```
 or
 ```zsh
@@ -97,17 +97,17 @@ pip install -r requirements.txt
 git add .
 git commit -m "Describe your changes here"
 ```
-**Step 3:** Assign the Tag 🏷️ bump2version **version**
+**Step 3:** Assign the Tag 🏷️ and push to Github
 
 **Example:**
 ```zsh
-bump2version patch
+bump2v patch
 ```
 ```zsh
-bump2version minor
+bump2v minor
 ```
 ```zsh
-bump2version major
+bump2v major
 ```
 - v0.0.**1͎** 👈🏻 **Patch Version:** The patch version is typically reserved for bug fixes or minor improvements that are backward-compatible with the existing features.
 - v0.**0͎**.0 👈🏻 **Minor Version:** The minor version reflects smaller, backward-compatible enhancements and features added to the software.
@@ -116,10 +116,6 @@ bump2version major
 **Note📝:** _Always has v before the version number._ **vX.X.X** This type of versioning is called Semantic Versioning (also known as SemVer).
 To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.org/introduction-semantic-versioning/).
 
-**Step 4:** Push the Code Changes to the Remote Repository along with the tags
-```zsh
-git push --follow-tags                                               
-```
 --------
 ## For new project you need these following configuration
 
