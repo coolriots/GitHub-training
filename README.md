@@ -93,6 +93,7 @@ pip install -r requirements.txt
 **Step 1:** Make a Code Change
 
 **Step 2:** Stage and Commit the Changes
+You may stage and commit from the GUI method or follow the cmd line as shown below:
 ```zsh
 git add .
 git commit -m "Describe your changes here"
