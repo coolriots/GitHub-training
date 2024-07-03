@@ -27,7 +27,7 @@ git config --global user.email "your.email@example.com"
 Replace "Your GitHub Username" and "your.email@example.com" with your actual GitHub username and email.
 
 3. Generate Personal Access Token:
-- Click on your avatar > click on setting > on your left-hand side, click on Personal Access Token > Click on Tokens (classic)
+- Follow this link [Github Token](https://github.com/settings/tokens)
 - Click generate new token and click on generate new token (classic)
 - Copy the generated the generated token. (Note: copy and store the token in your notes.)
 - Next when you clone a repo, system will prompt to key-in your username then user password. The password is the token which you have to key-in.
