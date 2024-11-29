@@ -7,9 +7,9 @@
 
 **What you can do with this repo?**
 - You may clone this repo
-- add your files for practise (Delete after you are done practising)
+- add your files for practise
 - Create branches, Pull request, Tagging etc.
-- Do not delete files that you have not created ‼️
+
 
   
 # Part 1: Get started. (Essentials) 🐣
