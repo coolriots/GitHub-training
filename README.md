@@ -121,7 +121,7 @@ To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.
 --------
 ## For new project you need these following configuration
 
-**Step 1:** Create a **.bumpversion.cfg** file and **appInfo.py** file
+**Step 1:** Create a **.bumpversion.cfg** file and **appInfo.py** file (**appInfo.py** is for python project only. Example: FastAPI or Flask.)
 
 **Step 2:** Populate the file **.bumpversion.cfg** with these data below 👇🏻
 ```
