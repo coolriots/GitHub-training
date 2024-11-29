@@ -127,20 +127,27 @@ To learn more about Semantic Versioning, [click here](https://www.geeksforgeeks.
 ```
 [bumpversion]
 current_version = 0.0.1
-commit = False
+commit = True
 tag = True
-TAG_NAME = {new_version}
-TAG_MESSAGE = "Release {new_version}: Changelog: {changelog}"
+tag_name = production-v{new_version}
+message = Version Updated: {current_version} → {new_version} 🚀
 
-[bumpversion:file:app/appInfo.py]  # <- location to your appInfo.py file. Example: app/appInfo.py or appInfo.py
+[bumpversion:file:path/to/appInfo.py]  # <- location to your appInfo.py file. Example: app/appInfo.py or appInfo.py
 ```
+**For React/NodeJs application** For NodeJs/React, replace the last line in file **.bumpversion.cfg** with the lines below
+[bumpversion:file:package.json] # <- location to your package.json file.
+search = "version": "{current_version}"
+replace = "version": "{new_version}"
+
+
 **Step 3:** Populate **appInfo.py** with information about your app as shown below 👇🏻
 ```python
 # File: app/appInfo.py 
 app_name = "Your App name"
 __version__ = "v0.0.1" # Initial version then leave as it is. 
 description = "Describe your app here"
-tags_metadata = "tags metadata here"
+environment = "production/staging/testing"
+tags_metadata = "tags metadata here" (OPTIONAL)
 ```
 **Step 4:** Import **appInfo.py** to your **main.py** and use the variable from appInfo to assign your version, app name and description as shown below 👇🏻
 ```python
