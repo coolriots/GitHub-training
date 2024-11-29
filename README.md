@@ -135,10 +135,11 @@ message = Version Updated: {current_version} → {new_version} 🚀
 [bumpversion:file:path/to/appInfo.py]  # <- location to your appInfo.py file. Example: app/appInfo.py or appInfo.py
 ```
 **For React/NodeJs application** For NodeJs/React, replace the last line in file **.bumpversion.cfg** with the lines below
+```
 [bumpversion:file:package.json] # <- location to your package.json file.
 search = "version": "{current_version}"
 replace = "version": "{new_version}"
-
+```
 
 **Step 3:** Populate **appInfo.py** with information about your app as shown below 👇🏻
 ```python
