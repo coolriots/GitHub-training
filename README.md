@@ -166,9 +166,6 @@ _Example:_
 versionkaboom patch
 ```
 ```zsh
-bismillah patch
-```
-```zsh
 bumptydumpty patch
 ```
 
